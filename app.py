@@ -141,4 +141,4 @@ async def predict_route(request: Request, file: UploadFile = File(...)):
 # --- 5. HOST & PORT CONFIGURATION ---
 if __name__ == "__main__":
     # Hugging Face Spaces REQUIRES port 7860
-    app_run(app, host="0.0.0.0", port=7860)
+    app_run(app, host="0.0.0.0", port=8000)
